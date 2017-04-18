@@ -6,12 +6,14 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <title>Loliach.su</title>
-
+<script>
+  document.getElementById('paragraph').innerHTML 'пewrewv3wrvwривет';
+  </script>
 
 </head> 
-<body background="BG.png">
+<body background="bg3.jpg"><font color="white"> 
 
-  <div id="header"> </div>                      АРТЁМ ДОЛБОЁБ
+  <div id="header"> </div>                      
   
  <div style="width: 1244px;margin: 0 auto;" >  
       
@@ -19,9 +21,17 @@
 	         <div style="margin-bottom: 100px; margin-top: 150px;" id="content">
 			    <div align="center"> <br> <br>
 			       <img src="Miku.png" height="500px"> </div>      
-			          <div align="center">
+			          <div align="center" style="margin-bottom: 100px;">
 			            <font size="9" color="black"> <br> <br> <h1> ДОБРО ПОЖАЛОВАТЬ </font> <br> 
-			      </h1> <font size=6 color="#404040"> <strong>ЗДЕСЬ ТЕБЕ ВСЕГДА РАДЫ0&nbsp &nbsp </strong> </font> </div>
+			      </h1> <font size=6 color="#404040"> <strong>Здесь тебе всегда рады  <br> <br>
+				  <?php
+                          echo "Сегодня - ".date("d F Y")."<br>";
+                          echo "Текущее время - ".date("H:i:s");
+                  ?>  <br> <br> Да,знаю,это бесполезно
+				  <br><br> &nbsp &nbsp <br> <br>
+                 
+				   
+				  </strong> </font> </div>
 			 </div>
 			 <div  id="menu" style="margin-top: 150px;"> <br> <br>  <br>  
 			 <a href="page2.html"><img src="anime.png"></a> <br>
